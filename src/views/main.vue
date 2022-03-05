@@ -19,11 +19,10 @@
 
 <script>
 import { onMounted, ref } from 'vue';
-import Sidebar from '@/components/sidebar.vue'
-import Nav from '@/components/nav.vue'
+
 export default {
     name:'products',
-    components : {Nav, Sidebar},
+
     setup(){
         const products = ref([]);
         onMounted(async()=>{
